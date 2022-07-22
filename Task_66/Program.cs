@@ -11,4 +11,5 @@ int numberM = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите натуральное число N: ");
 int numberN = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(InterNumbers(numberM, numberN));
+Console.WriteLine("Сумма натуральных элементов от {0} до {1} = {2}"
+, numberM, numberN, InterNumbers(numberM, numberN));
